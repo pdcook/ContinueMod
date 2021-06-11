@@ -8,12 +8,12 @@ using System.Reflection;
 // requires Assembly-CSharp.dll
 // requires MMHOOK-Assembly-CSharp.dll
 
-namespace PCE
+namespace Continue
 {
     [BepInDependency("com.willis.rounds.unbound", BepInDependency.DependencyFlags.HardDependency)]
     [BepInPlugin("pykess.rounds.plugins.continue", "Continue", "0.0.0.0")]
     [BepInProcess("Rounds.exe")]
-    public class PCE : BaseUnityPlugin
+    public class Continue : BaseUnityPlugin
     {
         private void Awake()
         {
@@ -31,7 +31,7 @@ namespace PCE
 
     [Serializable]
     [HarmonyPatch(typeof(GM_ArmsRace), "GameOver")]
-    class GM_ArmsRacePatchRoundTransition : MonoBehaviour
+    class GM_ArmsRacePatchRoundTransition
     {
         private static bool Prefix(GM_ArmsRace __instance, int winningTeamID)
         {
