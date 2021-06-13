@@ -16,7 +16,7 @@ Thanks to Ascyst for help testing this and for providing useful code in his SetR
 ----------------------------
 1. Install BepInEx, you can find it [here](https://discord.gg/tAQxJbV9RG).
 
-2. Install the newest versions of [UnboundLib and MMHOOK](https://github.com/willis81808/UnboundLib/releases).
+2. Install the newest versions of [UnboundLib and MMHOOK](https://github.com/Rounds-Modding/UnboundLib/releases).
 
 3. Copy `Continue.dll` to `/path/to/Steam/steamapps/common/ROUNDS/BepInEx/plugins/`
 
